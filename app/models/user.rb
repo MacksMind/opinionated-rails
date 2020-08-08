@@ -1,6 +1,10 @@
 # frozen_string_literal: true
 
 class User < ApplicationRecord
+  # Include default devise modules. Others available are:
+  # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
+  devise :database_authenticatable, :registerable,
+         :recoverable, :rememberable, :validatable
   belongs_to :country, optional: true, primary_key: :code, foreign_key: :country_code, inverse_of: false
   belongs_to :state, optional: true
 
