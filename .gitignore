@@ -34,3 +34,16 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+# Ignore cached images
+/public/system
+
+# Other
+/coverage
+*~
+*.swp
+*.rej
+*.orig
+/rerun.txt
+/.sass-cache
+/*.env
