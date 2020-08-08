@@ -1,4 +1,10 @@
-# Countries per ISO 3166 https://www.iso.org/iso-3166-country-codes.html
+# == Schema Information
+#
+# Table name: countries
+#
+#  code :string(2)        not null, primary key
+#  name :string
+#
 
 ---
 countries_AD:
