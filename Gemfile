@@ -49,3 +49,65 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development do
+  # Annotate models, factories, and spec with table layout
+  gem 'annotate'
+  # Add performance cops
+  gem 'rubocop-performance'
+  # Add Rails cops
+  gem 'rubocop-rails'
+  # Add Rspec cops
+  gem 'rubocop-rspec'
+  # Add slim generator
+  gem 'slim-rails'
+end
+
+group :development, :test do
+  # Help kill N+1 queries
+  gem 'bullet'
+  # For debugging
+  gem 'pry-byebug'
+  # Testing
+  gem 'rspec-rails'
+end
+
+group :test do
+  # Cucumber testing
+  gem 'cucumber-rails', require: false
+  # Empty database when needed during testing
+  gem 'database_cleaner'
+  # Factories for specs
+  gem 'factory_bot_rails'
+  # Supports save_and_open_page
+  gem 'launchy'
+  # Assigns in Rspec
+  gem 'rails-controller-testing'
+  # Mocks in Rspec
+  gem 'rspec-activemodel-mocks'
+  # Code coverage
+  gem 'simplecov', require: false
+end
+
+group :production do
+  # Heroku
+  gem 'rails_12factor'
+end
+
+# Authentication
+gem 'devise'
+# Pagination
+gem 'kaminari'
+# Use initials for avatar
+gem 'letter_avatar'
+# SEO meta tags
+gem 'meta-tags', require: 'meta_tags'
+# Authorization
+gem 'pundit'
+# Search form gem
+gem 'ransack'
+# Add slim. Note the generator is in the dev group. Might save a touch on bundle size by not using slim-rails here.
+gem 'slim'
+
+# Heroku
+ruby '2.7.1'
