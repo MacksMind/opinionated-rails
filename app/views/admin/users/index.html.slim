@@ -1,0 +1,42 @@
+h2 Listing users
+= search_form_for [:admin, @q] do |f|
+  .form-row
+    .col-sm
+      = f.search_field :email_cont, class: "form-control mb-1", placeholder: "Email contains"
+    .col-sm
+      = f.search_field :first_name_cont, class: "form-control mb-1", placeholder: "First name contains"
+    .col-sm
+      = f.search_field :last_name_cont, class: "form-control mb-1", placeholder: "Last name contains"
+    = f.button "Search", class: "btn btn-secondary ml-auto"
+    = f.button "Clear", class: "btn btn-secondary ml-2 mr-auto clear-form"
+br
+table.table.table-responsive
+  thead
+    tr
+      th
+      th=sort_link(@q, :email)
+      th=sort_link(@q, :first_name, %i(first_name last_name))
+      th=sort_link(@q, :last_name, %i(last_name first_name))
+      th=sort_link(@q, :roles_mask, "Roles")
+      th
+  tbody
+    - @users.each do |user|
+      tr id=dom_id(user)
+        td= gravatar_tag(user.email, user.full_name)
+        td= user.email
+        td= user.first_name
+        td= user.last_name
+        td= user.roles.join(",")
+        td
+          = link_to [:admin,user] do
+            i.fas.fa-eye title="Show"
+          =<link_to edit_admin_user_path(user) do
+            i.fas.fa-edit title="Edit"
+          - unless user == current_user
+            =<link_to [:admin,user], data: {confirm: 'Are you sure?'}, method: :delete do
+              i.fas.fa-trash-alt title="Destroy"
+          - unless user.role? :admin
+            =<link_to 'Masq', masquerade_admin_user_path(user), method: :post
+    tr
+      td[colspan=5]= paginate @users
+= link_to 'New user', new_admin_user_path

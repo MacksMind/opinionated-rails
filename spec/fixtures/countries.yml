@@ -1,0 +1,747 @@
+# Countries per ISO 3166 https://www.iso.org/iso-3166-country-codes.html
+
+---
+countries_AD:
+  code: AD
+  name: ANDORRA
+countries_AE:
+  code: AE
+  name: UNITED ARAB EMIRATES
+countries_AF:
+  code: AF
+  name: AFGHANISTAN
+countries_AG:
+  code: AG
+  name: ANTIGUA AND BARBUDA
+countries_AI:
+  code: AI
+  name: ANGUILLA
+countries_AL:
+  code: AL
+  name: ALBANIA
+countries_AM:
+  code: AM
+  name: ARMENIA
+countries_AO:
+  code: AO
+  name: ANGOLA
+countries_AQ:
+  code: AQ
+  name: ANTARCTICA
+countries_AR:
+  code: AR
+  name: ARGENTINA
+countries_AS:
+  code: AS
+  name: AMERICAN SAMOA
+countries_AT:
+  code: AT
+  name: AUSTRIA
+countries_AU:
+  code: AU
+  name: AUSTRALIA
+countries_AW:
+  code: AW
+  name: ARUBA
+countries_AX:
+  code: AX
+  name: ÅLAND ISLANDS
+countries_AZ:
+  code: AZ
+  name: AZERBAIJAN
+countries_BA:
+  code: BA
+  name: BOSNIA AND HERZEGOVINA
+countries_BB:
+  code: BB
+  name: BARBADOS
+countries_BD:
+  code: BD
+  name: BANGLADESH
+countries_BE:
+  code: BE
+  name: BELGIUM
+countries_BF:
+  code: BF
+  name: BURKINA FASO
+countries_BG:
+  code: BG
+  name: BULGARIA
+countries_BH:
+  code: BH
+  name: BAHRAIN
+countries_BI:
+  code: BI
+  name: BURUNDI
+countries_BJ:
+  code: BJ
+  name: BENIN
+countries_BL:
+  code: BL
+  name: SAINT BARTHÉLEMY
+countries_BM:
+  code: BM
+  name: BERMUDA
+countries_BN:
+  code: BN
+  name: BRUNEI DARUSSALAM
+countries_BO:
+  code: BO
+  name: BOLIVIA, PLURINATIONAL STATE OF
+countries_BQ:
+  code: BQ
+  name: BONAIRE, SAINT EUSTATIUS AND SABA
+countries_BR:
+  code: BR
+  name: BRAZIL
+countries_BS:
+  code: BS
+  name: BAHAMAS
+countries_BT:
+  code: BT
+  name: BHUTAN
+countries_BV:
+  code: BV
+  name: BOUVET ISLAND
+countries_BW:
+  code: BW
+  name: BOTSWANA
+countries_BY:
+  code: BY
+  name: BELARUS
+countries_BZ:
+  code: BZ
+  name: BELIZE
+countries_CA:
+  code: CA
+  name: CANADA
+countries_CC:
+  code: CC
+  name: COCOS (KEELING) ISLANDS
+countries_CD:
+  code: CD
+  name: CONGO, THE DEMOCRATIC REPUBLIC OF THE
+countries_CF:
+  code: CF
+  name: CENTRAL AFRICAN REPUBLIC
+countries_CG:
+  code: CG
+  name: CONGO
+countries_CH:
+  code: CH
+  name: SWITZERLAND
+countries_CI:
+  code: CI
+  name: CÔTE D'IVOIRE
+countries_CK:
+  code: CK
+  name: COOK ISLANDS
+countries_CL:
+  code: CL
+  name: CHILE
+countries_CM:
+  code: CM
+  name: CAMEROON
+countries_CN:
+  code: CN
+  name: CHINA
+countries_CO:
+  code: CO
+  name: COLOMBIA
+countries_CR:
+  code: CR
+  name: COSTA RICA
+countries_CU:
+  code: CU
+  name: CUBA
+countries_CV:
+  code: CV
+  name: CAPE VERDE
+countries_CW:
+  code: CW
+  name: Curaçao
+countries_CX:
+  code: CX
+  name: CHRISTMAS ISLAND
+countries_CY:
+  code: CY
+  name: CYPRUS
+countries_CZ:
+  code: CZ
+  name: CZECH REPUBLIC
+countries_DE:
+  code: DE
+  name: GERMANY
+countries_DJ:
+  code: DJ
+  name: DJIBOUTI
+countries_DK:
+  code: DK
+  name: DENMARK
+countries_DM:
+  code: DM
+  name: DOMINICA
+countries_DO:
+  code: DO
+  name: DOMINICAN REPUBLIC
+countries_DZ:
+  code: DZ
+  name: ALGERIA
+countries_EC:
+  code: EC
+  name: ECUADOR
+countries_EE:
+  code: EE
+  name: ESTONIA
+countries_EG:
+  code: EG
+  name: EGYPT
+countries_EH:
+  code: EH
+  name: WESTERN SAHARA
+countries_ER:
+  code: ER
+  name: ERITREA
+countries_ES:
+  code: ES
+  name: SPAIN
+countries_ET:
+  code: ET
+  name: ETHIOPIA
+countries_FI:
+  code: FI
+  name: FINLAND
+countries_FJ:
+  code: FJ
+  name: FIJI
+countries_FK:
+  code: FK
+  name: FALKLAND ISLANDS (MALVINAS)
+countries_FM:
+  code: FM
+  name: MICRONESIA, FEDERATED STATES OF
+countries_FO:
+  code: FO
+  name: FAROE ISLANDS
+countries_FR:
+  code: FR
+  name: FRANCE
+countries_GA:
+  code: GA
+  name: GABON
+countries_GB:
+  code: GB
+  name: UNITED KINGDOM
+countries_GD:
+  code: GD
+  name: GRENADA
+countries_GE:
+  code: GE
+  name: GEORGIA
+countries_GF:
+  code: GF
+  name: FRENCH GUIANA
+countries_GG:
+  code: GG
+  name: GUERNSEY
+countries_GH:
+  code: GH
+  name: GHANA
+countries_GI:
+  code: GI
+  name: GIBRALTAR
+countries_GL:
+  code: GL
+  name: GREENLAND
+countries_GM:
+  code: GM
+  name: GAMBIA
+countries_GN:
+  code: GN
+  name: GUINEA
+countries_GP:
+  code: GP
+  name: GUADELOUPE
+countries_GQ:
+  code: GQ
+  name: EQUATORIAL GUINEA
+countries_GR:
+  code: GR
+  name: GREECE
+countries_GS:
+  code: GS
+  name: SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS
+countries_GT:
+  code: GT
+  name: GUATEMALA
+countries_GU:
+  code: GU
+  name: GUAM
+countries_GW:
+  code: GW
+  name: GUINEA-BISSAU
+countries_GY:
+  code: GY
+  name: GUYANA
+countries_HK:
+  code: HK
+  name: HONG KONG
+countries_HM:
+  code: HM
+  name: HEARD ISLAND AND MCDONALD ISLANDS
+countries_HN:
+  code: HN
+  name: HONDURAS
+countries_HR:
+  code: HR
+  name: CROATIA
+countries_HT:
+  code: HT
+  name: HAITI
+countries_HU:
+  code: HU
+  name: HUNGARY
+countries_ID:
+  code: ID
+  name: INDONESIA
+countries_IE:
+  code: IE
+  name: IRELAND
+countries_IL:
+  code: IL
+  name: ISRAEL
+countries_IM:
+  code: IM
+  name: ISLE OF MAN
+countries_IN:
+  code: IN
+  name: INDIA
+countries_IO:
+  code: IO
+  name: BRITISH INDIAN OCEAN TERRITORY
+countries_IQ:
+  code: IQ
+  name: IRAQ
+countries_IR:
+  code: IR
+  name: IRAN, ISLAMIC REPUBLIC OF
+countries_IS:
+  code: IS
+  name: ICELAND
+countries_IT:
+  code: IT
+  name: ITALY
+countries_JE:
+  code: JE
+  name: JERSEY
+countries_JM:
+  code: JM
+  name: JAMAICA
+countries_JO:
+  code: JO
+  name: JORDAN
+countries_JP:
+  code: JP
+  name: JAPAN
+countries_KE:
+  code: KE
+  name: KENYA
+countries_KG:
+  code: KG
+  name: KYRGYZSTAN
+countries_KH:
+  code: KH
+  name: CAMBODIA
+countries_KI:
+  code: KI
+  name: KIRIBATI
+countries_KM:
+  code: KM
+  name: COMOROS
+countries_KN:
+  code: KN
+  name: SAINT KITTS AND NEVIS
+countries_KP:
+  code: KP
+  name: KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF
+countries_KR:
+  code: KR
+  name: KOREA, REPUBLIC OF
+countries_KW:
+  code: KW
+  name: KUWAIT
+countries_KY:
+  code: KY
+  name: CAYMAN ISLANDS
+countries_KZ:
+  code: KZ
+  name: KAZAKHSTAN
+countries_LA:
+  code: LA
+  name: LAO PEOPLE'S DEMOCRATIC REPUBLIC
+countries_LB:
+  code: LB
+  name: LEBANON
+countries_LC:
+  code: LC
+  name: SAINT LUCIA
+countries_LI:
+  code: LI
+  name: LIECHTENSTEIN
+countries_LK:
+  code: LK
+  name: SRI LANKA
+countries_LR:
+  code: LR
+  name: LIBERIA
+countries_LS:
+  code: LS
+  name: LESOTHO
+countries_LT:
+  code: LT
+  name: LITHUANIA
+countries_LU:
+  code: LU
+  name: LUXEMBOURG
+countries_LV:
+  code: LV
+  name: LATVIA
+countries_LY:
+  code: LY
+  name: LIBYAN ARAB JAMAHIRIYA
+countries_MA:
+  code: MA
+  name: MOROCCO
+countries_MC:
+  code: MC
+  name: MONACO
+countries_MD:
+  code: MD
+  name: MOLDOVA, REPUBLIC OF
+countries_ME:
+  code: ME
+  name: MONTENEGRO
+countries_MF:
+  code: MF
+  name: SAINT MARTIN (FRENCH PART)
+countries_MG:
+  code: MG
+  name: MADAGASCAR
+countries_MH:
+  code: MH
+  name: MARSHALL ISLANDS
+countries_MK:
+  code: MK
+  name: MACEDONIA, THE FORMER YUGOSLAV REPUBLIC OF
+countries_ML:
+  code: ML
+  name: MALI
+countries_MM:
+  code: MM
+  name: MYANMAR
+countries_MN:
+  code: MN
+  name: MONGOLIA
+countries_MO:
+  code: MO
+  name: MACAO
+countries_MP:
+  code: MP
+  name: NORTHERN MARIANA ISLANDS
+countries_MQ:
+  code: MQ
+  name: MARTINIQUE
+countries_MR:
+  code: MR
+  name: MAURITANIA
+countries_MS:
+  code: MS
+  name: MONTSERRAT
+countries_MT:
+  code: MT
+  name: MALTA
+countries_MU:
+  code: MU
+  name: MAURITIUS
+countries_MV:
+  code: MV
+  name: MALDIVES
+countries_MW:
+  code: MW
+  name: MALAWI
+countries_MX:
+  code: MX
+  name: MEXICO
+countries_MY:
+  code: MY
+  name: MALAYSIA
+countries_MZ:
+  code: MZ
+  name: MOZAMBIQUE
+countries_NA:
+  code: NA
+  name: NAMIBIA
+countries_NC:
+  code: NC
+  name: NEW CALEDONIA
+countries_NE:
+  code: NE
+  name: NIGER
+countries_NF:
+  code: NF
+  name: NORFOLK ISLAND
+countries_NG:
+  code: NG
+  name: NIGERIA
+countries_NI:
+  code: NI
+  name: NICARAGUA
+countries_NL:
+  code: NL
+  name: NETHERLANDS
+countries_NO:
+  code: 'NO'
+  name: NORWAY
+countries_NP:
+  code: NP
+  name: NEPAL
+countries_NR:
+  code: NR
+  name: NAURU
+countries_NU:
+  code: NU
+  name: NIUE
+countries_NZ:
+  code: NZ
+  name: NEW ZEALAND
+countries_OM:
+  code: OM
+  name: OMAN
+countries_PA:
+  code: PA
+  name: PANAMA
+countries_PE:
+  code: PE
+  name: PERU
+countries_PF:
+  code: PF
+  name: FRENCH POLYNESIA
+countries_PG:
+  code: PG
+  name: PAPUA NEW GUINEA
+countries_PH:
+  code: PH
+  name: PHILIPPINES
+countries_PK:
+  code: PK
+  name: PAKISTAN
+countries_PL:
+  code: PL
+  name: POLAND
+countries_PM:
+  code: PM
+  name: SAINT PIERRE AND MIQUELON
+countries_PN:
+  code: PN
+  name: PITCAIRN
+countries_PR:
+  code: PR
+  name: PUERTO RICO
+countries_PS:
+  code: PS
+  name: PALESTINIAN TERRITORY, OCCUPIED
+countries_PT:
+  code: PT
+  name: PORTUGAL
+countries_PW:
+  code: PW
+  name: PALAU
+countries_PY:
+  code: PY
+  name: PARAGUAY
+countries_QA:
+  code: QA
+  name: QATAR
+countries_RE:
+  code: RE
+  name: RÉUNION
+countries_RO:
+  code: RO
+  name: ROMANIA
+countries_RS:
+  code: RS
+  name: SERBIA
+countries_RU:
+  code: RU
+  name: RUSSIAN FEDERATION
+countries_RW:
+  code: RW
+  name: RWANDA
+countries_SA:
+  code: SA
+  name: SAUDI ARABIA
+countries_SB:
+  code: SB
+  name: SOLOMON ISLANDS
+countries_SC:
+  code: SC
+  name: SEYCHELLES
+countries_SD:
+  code: SD
+  name: SUDAN
+countries_SE:
+  code: SE
+  name: SWEDEN
+countries_SG:
+  code: SG
+  name: SINGAPORE
+countries_SH:
+  code: SH
+  name: SAINT HELENA, ASCENSION AND TRISTAN DA CUNHA
+countries_SI:
+  code: SI
+  name: SLOVENIA
+countries_SJ:
+  code: SJ
+  name: SVALBARD AND JAN MAYEN
+countries_SK:
+  code: SK
+  name: SLOVAKIA
+countries_SL:
+  code: SL
+  name: SIERRA LEONE
+countries_SM:
+  code: SM
+  name: SAN MARINO
+countries_SN:
+  code: SN
+  name: SENEGAL
+countries_SO:
+  code: SO
+  name: SOMALIA
+countries_SR:
+  code: SR
+  name: SURINAME
+countries_ST:
+  code: ST
+  name: SAO TOME AND PRINCIPE
+countries_SV:
+  code: SV
+  name: EL SALVADOR
+countries_SX:
+  code: SX
+  name: SINT MAARTEN (DUTCH PART)
+countries_SY:
+  code: SY
+  name: SYRIAN ARAB REPUBLIC
+countries_SZ:
+  code: SZ
+  name: SWAZILAND
+countries_TC:
+  code: TC
+  name: TURKS AND CAICOS ISLANDS
+countries_TD:
+  code: TD
+  name: CHAD
+countries_TF:
+  code: TF
+  name: FRENCH SOUTHERN TERRITORIES
+countries_TG:
+  code: TG
+  name: TOGO
+countries_TH:
+  code: TH
+  name: THAILAND
+countries_TJ:
+  code: TJ
+  name: TAJIKISTAN
+countries_TK:
+  code: TK
+  name: TOKELAU
+countries_TL:
+  code: TL
+  name: TIMOR-LESTE
+countries_TM:
+  code: TM
+  name: TURKMENISTAN
+countries_TN:
+  code: TN
+  name: TUNISIA
+countries_TO:
+  code: TO
+  name: TONGA
+countries_TR:
+  code: TR
+  name: TURKEY
+countries_TT:
+  code: TT
+  name: TRINIDAD AND TOBAGO
+countries_TV:
+  code: TV
+  name: TUVALU
+countries_TW:
+  code: TW
+  name: TAIWAN, PROVINCE OF CHINA
+countries_TZ:
+  code: TZ
+  name: TANZANIA, UNITED REPUBLIC OF
+countries_UA:
+  code: UA
+  name: UKRAINE
+countries_UG:
+  code: UG
+  name: UGANDA
+countries_UM:
+  code: UM
+  name: UNITED STATES MINOR OUTLYING ISLANDS
+countries_US:
+  code: US
+  name: UNITED STATES
+countries_UY:
+  code: UY
+  name: URUGUAY
+countries_UZ:
+  code: UZ
+  name: UZBEKISTAN
+countries_VA:
+  code: VA
+  name: HOLY SEE (VATICAN CITY STATE)
+countries_VC:
+  code: VC
+  name: SAINT VINCENT AND THE GRENADINES
+countries_VE:
+  code: VE
+  name: VENEZUELA, BOLIVARIAN REPUBLIC OF
+countries_VG:
+  code: VG
+  name: VIRGIN ISLANDS, BRITISH
+countries_VI:
+  code: VI
+  name: VIRGIN ISLANDS, U.S.
+countries_VN:
+  code: VN
+  name: VIET NAM
+countries_VU:
+  code: VU
+  name: VANUATU
+countries_WF:
+  code: WF
+  name: WALLIS AND FUTUNA
+countries_WS:
+  code: WS
+  name: SAMOA
+countries_YE:
+  code: YE
+  name: YEMEN
+countries_YT:
+  code: YT
+  name: MAYOTTE
+countries_ZA:
+  code: ZA
+  name: SOUTH AFRICA
+countries_ZM:
+  code: ZM
+  name: ZAMBIA
+countries_ZW:
+  code: ZW
+  name: ZIMBABWE

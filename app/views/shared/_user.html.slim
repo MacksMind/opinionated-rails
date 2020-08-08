@@ -1,0 +1,115 @@
+= form_for @user, url: url do |f|
+  - cache_unless @user.changed?, [params[:controller], @user] do
+    - if @user.errors.any?
+      #error_explanation
+        p
+          = pluralize(@user.errors.count, "error")
+          |  prohibited this account from being saved:
+        ul
+          - @user.errors.full_messages.each do |msg|
+            li= msg
+    - if @user.new_record? || params[:controller] == 'admin/users'
+      .row.mb-3
+        .col-sm-4
+          = f.label :email, class: 'col-form-label'
+        .col-sm-8
+          = f.text_field :email, type: :email, class: 'form-control'
+    .row.mb-3
+      .col-sm-4
+        = f.label :first_name, class: 'col-form-label'
+      .col-sm-8
+        = f.text_field :first_name, class: 'form-control'
+    .row.mb-3
+      .col-sm-4
+        = f.label :last_name, class: 'col-form-label'
+      .col-sm-8
+        = f.text_field :last_name, class: 'form-control', 'data-required' => true
+    - if @user.new_record? || params[:controller] == 'admin/users'
+      .row.mb-3
+        .col-sm-4
+          = f.label :password, class: 'col-form-label'
+        .col-sm-8
+          = f.password_field :password, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :password_confirmation, class: 'col-form-label'
+        .col-sm-8
+          = f.password_field :password_confirmation, class: 'form-control'
+    - if @user.persisted? || params[:controller] == 'admin/users'
+      .row.mb-3
+        .col-sm-4
+          = f.label :time_zone, class: 'col-form-label'
+        .col-sm-8
+          = f.time_zone_select :time_zone, ActiveSupport::TimeZone.us_zones, {default: "Eastern Time (US & Canada)"}, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :phone_number, class: 'col-form-label'
+        .col-sm-8
+          = f.telephone_field :phone_number, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :company_name, class: 'col-form-label'
+        .col-sm-8
+          = f.text_field :company_name, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :title, class: 'col-form-label'
+          span.optional (optional)
+        .col-sm-8
+          = f.text_field :title, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :address_line_1, class: 'col-form-label'
+        .col-sm-8
+          = f.text_field :address_line_1, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :address_line_2, class: 'col-form-label'
+          span.optional (optional)
+        .col-sm-8
+          = f.text_field :address_line_2, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :city, class: 'col-form-label'
+        .col-sm-8
+          = f.text_field :city, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :state_id, "State/Province", class: 'col-form-label'
+        .col-sm-8
+          = f.collection_select :state_id, State.order(:name), :id, :name, {include_blank: true}, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :postal_code, "Zip/Postal code", class: 'col-form-label'
+        .col-sm-8
+          = f.text_field :postal_code, class: 'form-control'
+      .row.mb-3
+        .col-sm-4
+          = f.label :country_code, "Country", class: 'col-form-label'
+        .col-sm-8
+          = f.collection_select :country_code, Country.order(:name), :code, :name, {include_blank: true}, class: 'form-control'
+    - if params[:controller] == 'admin/users'
+      .row.mb-3
+        .col-sm-4
+          label Roles
+        .col-sm-8
+          = hidden_field_tag 'user[roles][]'
+          - for role in User::ROLES
+            .form-check.form-check-inline
+              label.form-check-label
+                = check_box_tag "user[roles][]", role, @user.role?(role), id: "user_role_#{role}", class: "form-check-input"
+                = role.titleize
+  - if params[:controller] == "users/registrations"
+    = f.button @user.new_record? ? "Sign up" : "Update", class: 'btn btn-primary'
+  - else
+    = f.button class: 'btn btn-primary'
+  =<link_to "Cancel", :back
+javascript:
+  document
+    .getElementById("user_state_id")
+    .addEventListener("change", function () {
+      const countryCode = this.value.substring(0, 2);
+      if (countryCode) {
+        document.getElementById("user_country_code").value = countryCode;
+      }
+    });
